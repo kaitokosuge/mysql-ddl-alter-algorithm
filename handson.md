@@ -1,8 +1,3 @@
-### 始める
-```
-docker compose up -d
-```
-
 ### mysql コンテナへログイン
 
 ```
@@ -28,9 +23,4 @@ ALTER TABLE users ADD COLUMN age INT,algorithm=INPLACE;
 ### カラム追加（instantアルゴリズム）
 ```
 ALTER TABLE users ADD COLUMN age INT,algorithm=INSTANT;
-```
-
-### 全てをやり直したい時
-```
-docker compose down --volumes
 ```
